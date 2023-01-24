@@ -1,4 +1,4 @@
-import Image from 'Next/Image';
+import Image from 'next/image';
 import { Contract } from "ethers";
 import { useState } from "react";
 import { useForm } from "react-hook-form";

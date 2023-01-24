@@ -1,4 +1,4 @@
-import Image from 'Next/Image';
+import Image from 'next/image';
 import { ethers } from 'ethers';
 import React, { useEffect, useState } from 'react'
 import { useAccount, useContract, useSigner } from 'wagmi'
