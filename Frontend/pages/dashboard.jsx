@@ -197,7 +197,7 @@ function Dashboard() {
           <div className='mt-16 grid grid-cols-1 gap-5 md:grid-cols-3'>
             <div>
               <div className=''>
-                <Image className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.877de684bbe2186d1055d874d4ed9636?rik=6U5TvfVzskpwtg&pid=ImgRaw&r=0" alt="" />
+                <img className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.877de684bbe2186d1055d874d4ed9636?rik=6U5TvfVzskpwtg&pid=ImgRaw&r=0" alt="" />
               </div>
               <div className="border p-4">
                 <p>
@@ -213,7 +213,7 @@ function Dashboard() {
             </div>
             <div>
               <div className=''>
-                <Image className='object-cover rounded-t-xl' src="https://images.pexels.com/photos/2684219/pexels-photo-2684219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <img className='object-cover rounded-t-xl' src="https://images.pexels.com/photos/2684219/pexels-photo-2684219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div className="border p-4">
                 <p>
@@ -227,7 +227,7 @@ function Dashboard() {
             </div>
             <div>
               <div className=''>
-                <Image className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.7f602f0f2e753c26053226ef585c8f6a?rik=X05QNfjVpByO7g&pid=ImgRaw&r=0" alt="" />
+                <img className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.7f602f0f2e753c26053226ef585c8f6a?rik=X05QNfjVpByO7g&pid=ImgRaw&r=0" alt="" />
               </div>
               <div className="border p-4">
                 <p>

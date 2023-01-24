@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React, {useContext} from 'react'
-import { BlockchainContext } from '../pages/context/BlockchainContext'
+import { BlockchainContext } from '../components/context/BlockchainContext'
 import { ConnectKitProvider, ConnectKitButton, getDefaultClient } from "connectkit";
 //import MobileMenu from './MobileMenu';
 
@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <nav className='flex justify-between items-center w-full p-6 bg-gray-800'>
       <div className='flex items-center space-x-2'>
-          <Image className='w-14 rounded-full' src='./images/logo.png' alt='logo' />
+          <img className='w-14 rounded-full' src='./image/logo.png' alt='logo' />
           <p className='text-white font-semibold text-3xl'>CarBlock</p>
       </div>
       <div className='flex space-x-2 items-center'>

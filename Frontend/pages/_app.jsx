@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { BlockchainProvider } from './context/BlockchainContext'
+import { BlockchainProvider } from '../components/context/BlockchainContext'
 import { WagmiConfig, createClient } from "wagmi";
 import { mainnet, polygon, polygonMumbai, optimism, arbitrum } from "wagmi/chains";
 import { ConnectKitProvider, ConnectKitButton, getDefaultClient } from "connectkit";

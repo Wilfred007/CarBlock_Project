@@ -23,7 +23,7 @@ const Home = () => {
         </div>
 
         {/* Car image */}
-        <Image className='' src="./images/car.png" alt="" />
+        <img className='' src="./images/car.png" alt="" />
       </div>
       <div>
       <div className='space-x-4 md:space-x-3 text-center mt-50 py-10'>
