@@ -1,3 +1,4 @@
+import Image from 'Next/Image';
 import { ethers } from 'ethers';
 import React, { useEffect, useState } from 'react'
 import { useAccount, useContract, useSigner } from 'wagmi'
@@ -5,7 +6,7 @@ import { CONTRACT_ADDRESS, CONTRACT_ABI } from '../constants'
 import { AiOutlineCar, AiOutlineFieldTime, AiOutlineDollarCircle } from "react-icons/ai";
 
 
-function dashboard() {
+function Dashboard() {
   const [depositAmount, setDepositAmount] = useState(0);
   const [paymentAmount, setPaymentAmount] = useState(0);
   const [creditBal, setCreditBalance] = useState(0);
@@ -196,13 +197,13 @@ function dashboard() {
           <div className='mt-16 grid grid-cols-1 gap-5 md:grid-cols-3'>
             <div>
               <div className=''>
-                <img className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.877de684bbe2186d1055d874d4ed9636?rik=6U5TvfVzskpwtg&pid=ImgRaw&r=0" alt="" />
+                <Image className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.877de684bbe2186d1055d874d4ed9636?rik=6U5TvfVzskpwtg&pid=ImgRaw&r=0" alt="" />
               </div>
               <div className="border p-4">
                 <p>
                 The toyota highlander is able to consistently perform well and not break down frequently.
 
-                Fuel efficiency: For some people, a car's fuel efficiency (or how much fuel it consumes per mile driven) is an important factor.
+                Fuel efficiency: For some people, a car&#39;s fuel efficiency (or how much fuel it consumes per mile driven) is an important factor.
                 </p>
                 <div className='space-x-3 md:space-x-3 text-center pt-4'>
                   <button onClick={() => {checkOut()}} className='bg-teal-400 py-4 px-4 mt-4 rounded-xl hover:bg-teal-500 transition ease-linear duration-200'>{loading?'Checking Out...':'Check Out'} </button>
@@ -212,7 +213,7 @@ function dashboard() {
             </div>
             <div>
               <div className=''>
-                <img className='object-cover rounded-t-xl' src="https://images.pexels.com/photos/2684219/pexels-photo-2684219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <Image className='object-cover rounded-t-xl' src="https://images.pexels.com/photos/2684219/pexels-photo-2684219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div className="border p-4">
                 <p>
@@ -226,7 +227,7 @@ function dashboard() {
             </div>
             <div>
               <div className=''>
-                <img className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.7f602f0f2e753c26053226ef585c8f6a?rik=X05QNfjVpByO7g&pid=ImgRaw&r=0" alt="" />
+                <Image className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/R.7f602f0f2e753c26053226ef585c8f6a?rik=X05QNfjVpByO7g&pid=ImgRaw&r=0" alt="" />
               </div>
               <div className="border p-4">
                 <p>
@@ -245,4 +246,4 @@ function dashboard() {
   )
 }
 
-export default dashboard
+export default Dashboard

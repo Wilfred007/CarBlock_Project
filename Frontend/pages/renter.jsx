@@ -1,3 +1,4 @@
+import Image from 'Next/Image';
 import { Contract } from "ethers";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -7,7 +8,7 @@ import Link from 'next/link';
  
 
 
-function dashboard() {
+function Dashboard() {
 
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
@@ -92,7 +93,7 @@ function dashboard() {
           <div className='mt-16 grid grid-cols-1 gap-5 md:grid-cols-3'>
             <div>
               <div className=''>
-                <img className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/OIP.QZsweKX2Etl1OfibhdB4LgHaFj?pid=ImgDet&w=800&h=600&rs=1" alt="" />
+                <Image className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/OIP.QZsweKX2Etl1OfibhdB4LgHaFj?pid=ImgDet&w=800&h=600&rs=1" alt="" />
               </div>
               <div className="border p-4">
                 <p>
@@ -102,7 +103,7 @@ function dashboard() {
             </div>
             <div>
               <div className=''>
-                <img className='object-cover rounded-t-xl' src="https://images.pexels.com/photos/2684219/pexels-photo-2684219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <Image className='object-cover rounded-t-xl' src="https://images.pexels.com/photos/2684219/pexels-photo-2684219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               </div>
               <div className="border p-4">
                 <p>
@@ -112,7 +113,7 @@ function dashboard() {
             </div>
             <div>
               <div className=''>
-                <img className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/OIP.1X2TnmEo7qoDSMim12gTigHaE8?pid=ImgDet&rs=1" alt="" />
+                <Image className='object-cover rounded-t-xl' src="https://th.bing.com/th/id/OIP.1X2TnmEo7qoDSMim12gTigHaE8?pid=ImgDet&rs=1" alt="" />
               </div>
               <div className="border p-4">
                 <p>
@@ -131,4 +132,4 @@ function dashboard() {
   )
 }
 
-export default dashboard
+export default Dashboard
